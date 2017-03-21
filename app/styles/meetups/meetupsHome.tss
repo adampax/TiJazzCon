@@ -1,0 +1,3 @@
+'#win': {
+	title: Ti.App.name
+}

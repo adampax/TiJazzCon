@@ -1,5 +1,5 @@
-function doClick(e) {
-	alert($.label.text);
-}
+
+//Save the tabgroup globally
+Alloy.Globals.tabgroup = $.index;
 
 $.index.open();

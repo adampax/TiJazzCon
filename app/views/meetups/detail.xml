@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id='win' titleid='meetup_details'>
+		<ActionBar platform='android' displayHomeAsUp='true' onHomeIconItemSelected='closeWindow' />
+		<Label id='title' />
+		<Label id='when' class='small'/>
+		<Label id='where' class='small'/>
+		<Label id='rsvp' class='small'/>
+		<Label id='description' />
+	</Window>
+</Alloy>

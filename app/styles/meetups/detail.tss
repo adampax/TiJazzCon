@@ -1,0 +1,31 @@
+'Label':{
+	color:'#000000'
+}
+
+'#win':{
+	layout:'vertical'
+},
+
+'#title':{
+	top:10,
+	font:{
+		fontSize:27
+	}
+},
+
+'.small':{
+	top:10,
+	left:10,
+	font:{
+		fontSize:17
+	}
+},
+
+'#description': {
+	font:{
+		fontSize:17
+	},
+	top:15,
+	left:10,
+	right:10
+}

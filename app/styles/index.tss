@@ -13,3 +13,13 @@
 		fontSize: 12
 	}
 }
+
+'#projects': {
+	icon: "images/tabgroup/786-browser.png",
+	activeIcon: "images/tabgroup/786-browser-selected.png"
+},
+
+'#meetups': {
+	icon: "images/tabgroup/895-user-group.png",
+	activeIcon: "images/tabgroup/895-user-group-selected.png"
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id='win'>
+		<TableView id='table'  dataCollection='meetups' dataTransform='transformModel' onClick='rowClick'>
+			<Require src="meetups/row" />
+		</TableView>
+	</Window>
+</Alloy>

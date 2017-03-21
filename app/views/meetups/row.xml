@@ -1,0 +1,11 @@
+<Alloy>
+    <TableViewRow class='container'>
+        <View class='detail'>
+            <Label id='title'>{name}</Label>
+            <View id='subtitle'>
+                <Label class='small' id='time'>{time}</Label>
+                <Label class='small' id='rsvp'>{rsvp}</Label>
+            </View>
+        </View>
+    </TableViewRow>
+</Alloy>

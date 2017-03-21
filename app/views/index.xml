@@ -1,5 +1,10 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+	<TabGroup>
+<!--		<Tab id='projects' titleid='tab_projects'>
+			<Require src='projects/projectsHome' />
+		</Tab>-->
+		<Tab id='meetups' titleid='tab_meetups'>
+			<Require src='meetups/meetupsHome' />
+		</Tab>		
+	</TabGroup>
 </Alloy>
