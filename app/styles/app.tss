@@ -27,7 +27,7 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 'Window[platform=ios]': {
-	barColor: '#006ac3',
+	barColor: '#208fbb',
 	tintColor: '#006ac3',
 	navTintColor:'#fff',
 	titleAttributes: {

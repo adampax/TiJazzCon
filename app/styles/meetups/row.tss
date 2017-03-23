@@ -1,7 +1,12 @@
 
 ".container": {
 	height: 100
-}
+},
+
+".container[platform=ios]": {
+	hasChild: true
+},
+
 "Label[platform=android]": {
 	color: "black"
 }

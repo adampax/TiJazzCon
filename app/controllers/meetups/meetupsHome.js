@@ -2,11 +2,6 @@ var args = arguments[0] || {};
 
 //const API_KEY = 'get yours here: https://secure.meetup.com/meetup_api/key/';
 
-//NOLA
-var coords = {
-	lat:'29.943342',
-	lon:'-90.064782'
-};
 
 //Meetup.com 'tech' category
 const categoryID = 34;
@@ -18,7 +13,7 @@ var moment = require('alloy/moment');
 var timeRange = moment().subtract(6, 'months').valueOf() + ',' + moment().add(6, 'months').valueOf();
 
 xhr.send({
-	url : 'https://api.meetup.com/2/open_events?key=' + API_KEY + '&lat='+coords.lat+'&lon='+coords.lon+'&category='+categoryID,
+	url : 'https://api.meetup.com/2/open_events?key=' + API_KEY + '&lat='+Alloy.Globals.coords.lat+'&lon='+Alloy.Globals.coords.lon+'&category='+categoryID,
 	method : 'GET',
 	success : function(res) {
 		//reset results in a collection which will trigger a bind on the table 

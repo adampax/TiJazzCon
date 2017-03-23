@@ -10,4 +10,13 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Collections.meetups = new Backbone.Collection();Alloy.Collections.music = new Backbone.Collection();
+
+//set the coordinates for our demo to downtown NOLA
+//we can do this automatically using the the Ti.Geolocation api
+Alloy.Globals.coords = {
+	lat:'29.943342',
+	lon:'-90.064782'
+};
+
+//lets create some default collections to later hold our data
+Alloy.Collections.meetups = new Backbone.Collection();
