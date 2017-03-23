@@ -1,10 +1,10 @@
 <Alloy>
 	<TabGroup>
-<!--		<Tab id='projects' titleid='tab_projects'>
-			<Require src='projects/projectsHome' />
-		</Tab>-->
 		<Tab id='meetups' titleid='tab_meetups'>
 			<Require src='meetups/meetupsHome' />
+		</Tab>
+		<Tab id='projects' titleid='tab_music'>
+			<Require src='music/musicHome' />
 		</Tab>		
 	</TabGroup>
 </Alloy>

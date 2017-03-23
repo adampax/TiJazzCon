@@ -1,0 +1,11 @@
+'#win': {
+	title: 'TiJazzCon'
+},
+'#mapview': {
+	region: {
+		latitude: Alloy.Globals.coords.lat,
+		longitude: Alloy.Globals.coords.lon,
+		latitudeDelta: 0.05,
+		longitudeDelta: 0.05
+	}
+}

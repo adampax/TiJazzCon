@@ -10,4 +10,4 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Collections.meetups = new Backbone.Collection();
+Alloy.Collections.meetups = new Backbone.Collection();Alloy.Collections.music = new Backbone.Collection();

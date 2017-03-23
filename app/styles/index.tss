@@ -15,8 +15,8 @@
 }
 
 '#projects': {
-	icon: "images/tabgroup/786-browser.png",
-	activeIcon: "images/tabgroup/786-browser-selected.png"
+	icon: "images/tabgroup/841-music-playlist.png",
+	activeIcon: "images/tabgroup/841-music-playlist-selected.png"
 },
 
 '#meetups': {
